@@ -150,6 +150,7 @@ function Library:CreateLabel(Properties, IsHud)
         TextColor3 = Library.FontColor;
         TextSize = 16;
         TextStrokeTransparency = 0;
+        Position = UDim2.new(0, 550, 0, 0); -- Set the position here
     });
 
     Library:ApplyTextStroke(_Instance);
